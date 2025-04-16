@@ -41,3 +41,9 @@ No build tools required! This project uses CDN-loaded libraries for simplicity.
 ### Installation
 
 1. Clone the repository
+`
+git clone [https://github.com/klinucsd/of4d]
+cd tools/chm/visualization
+`
+3. 
+4. 
