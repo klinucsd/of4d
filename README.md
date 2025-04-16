@@ -2,8 +2,6 @@
 
 This repository provides an interactive 3D visualization of forest canopy height models using pure JavaScript. The visualization enables users to explore forest structure across multiple terrain tiles, with an intuitive interface for analyzing canopy height data.
 
-![CHM Visualization Screenshot](https://github.com/username/repo-name/raw/main/screenshot.png)
-
 ## Features
 
 - **Interactive 3D Terrain Visualization**: Navigate through a detailed 3D representation of forest canopy structure
@@ -19,7 +17,7 @@ This repository provides an interactive 3D visualization of forest canopy height
 
 ## Live Demo
 
-[View the live demo](https://your-github-pages-url)
+[View the live demo](https://of4d-beta.sdsc.edu/chm/visualization.html)
 
 ## How It Works
 
