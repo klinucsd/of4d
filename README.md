@@ -4,7 +4,7 @@ This repository provides an interactive 3D visualization of forest canopy height
 
 ## Features
 
-- **Interactive 3D Terrain Visualization**: Navigate through a detailed 3D representation of forest canopy structure
+- **Interactive 3D CHM Visualization**: Navigate through a detailed 3D representation of forest canopy structure
 - **Multi-tile Support**: Seamlessly loads and visualizes multiple CHM GeoTIFF tiles
 - **Height-based Coloring**: Visual gradient representing canopy heights
 - **Interactive Map**: Minimap for easy navigation between tiles
