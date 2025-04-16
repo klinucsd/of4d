@@ -1,1 +1,1 @@
-# Open Forest 4D: 3D Visualization of Canopy Height Model Tiles
+# Open Forest 4D: 3D Visualization of CHM Tiles
