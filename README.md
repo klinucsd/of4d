@@ -77,13 +77,9 @@ The visualization expects GeoTIFF files with:
 
 The visualization dynamically loads and unloads tiles based on distance from the camera to maintain performance, even with numerous high-resolution tiles.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
