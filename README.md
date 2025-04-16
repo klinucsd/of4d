@@ -1,6 +1,6 @@
 # Canopy Height Model (CHM) Tiled Visualization
 
-This repository provides an interactive 3D visualization of forest canopy height models using pure JavaScript. The visualization enables users to explore forest structure across multiple terrain tiles, with an intuitive interface for analyzing canopy height data.
+This repository provides an interactive 3D visualization of forest canopy height models using pure JavaScript. The visualization enables users to explore forest structure across multiple CHM tiles, with an intuitive interface for analyzing canopy height data.
 
 ## Features
 
