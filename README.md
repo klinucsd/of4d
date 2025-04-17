@@ -83,5 +83,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
+- This tool is developed under OpenForest4D which is funded by NSF awards 2409885, 2409886 & 2409887
 - [NEON (National Ecological Observatory Network)](https://www.neonscience.org/) for providing open CHM data
 - Three.js, GeoTIFF.js, and other libraries that made this visualization possible
