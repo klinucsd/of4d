@@ -38,7 +38,7 @@
             transition: opacity 0.3s ease;
             z-index: 100;
         }
-	
+    
         #info { bottom: 25px; left: 25px; min-width: 180px; }
         #colorLegend { bottom: 25px; right: 25px; display: flex; flex-direction: column; align-items: flex-start; }
         #errorMessage {
@@ -122,73 +122,73 @@
             opacity: 0.5;
         }
 
-	.dg.ac { 
-	    position: fixed !important; 
-	    top: 10px !important; 
-	    right: 12px !important; 
-	    left: auto !important; 
-	    z-index: 1000 !important; 
-	}
-	.dg.main {
-	    background: var(--panel-bg) !important;
-	    border: 1px solid var(--panel-border) !important;
-	    border-radius: 8px !important;
-	    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
-	    backdrop-filter: blur(8px) !important;
-	    padding: 0 !important;
-	}
-	.dg .c { 
-	    color: var(--text-color) !important; 
-	}
-	.dg .cr { 
-	    border-left: none !important; 
-	}
-	.dg .property-name { 
-	    color: var(--text-color) !important; 
-	    font-family: var(--font-main) !important; 
-	    font-size: 12px !important; 
-	    opacity: 0.7 !important; 
-	}
-	.dg .c input[type="text"], .dg .c input[type="number"] { 
-	    background: rgba(255, 255, 255, 0.1) !important; 
-	    color: var(--text-color) !important; 
-	    border: none !important; 
-	    font-family: var(--font-main) !important; 
-	    font-size: 12px !important; 
-	}
-	.dg .c input[type="checkbox"] { 
-	    accent-color: var(--accent-color) !important; 
-	}
-	.dg .cr.function .property-name { 
-	    width: 100% !important; 
-	    color: var(--accent-color) !important; 
-	    opacity: 1 !important; 
-	}
-	.dg .cr.function:hover { 
-	    background: rgba(255, 255, 255, 0.1) !important; 
-	}
-	.dg .close-button { 
-	    position: relative !important;
-	    background: rgba(255, 255, 255, 0.1) !important; 
-	    border-top: none !important; 
-	    border-bottom-left-radius: 8px !important;
-	    border-bottom-right-radius: 8px !important;
-	    color: var(--text-color) !important; 
-	    font-family: var(--font-main) !important; 
-	    font-size: 12px !important; 
-	    text-align: center !important; 
-	    padding: 8px !important; 
-	    margin-top: 5px !important;
-	    width: 100% !important;
-	    box-sizing: border-box !important;
-	    display: flex !important;
-	    align-items: center !important;
-	    justify-content: center !important;
-	    min-height: 22px !important;
-	}
-	.dg .close-button:hover { 
-	    background: rgba(255, 255, 255, 0.2) !important; 
-	}
+    .dg.ac { 
+        position: fixed !important; 
+        top: 10px !important; 
+        right: 12px !important; 
+        left: auto !important; 
+        z-index: 1000 !important; 
+    }
+    .dg.main {
+        background: var(--panel-bg) !important;
+        border: 1px solid var(--panel-border) !important;
+        border-radius: 8px !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+        backdrop-filter: blur(8px) !important;
+        padding: 0 !important;
+    }
+    .dg .c { 
+        color: var(--text-color) !important; 
+    }
+    .dg .cr { 
+        border-left: none !important; 
+    }
+    .dg .property-name { 
+        color: var(--text-color) !important; 
+        font-family: var(--font-main) !important; 
+        font-size: 12px !important; 
+        opacity: 0.7 !important; 
+    }
+    .dg .c input[type="text"], .dg .c input[type="number"] { 
+        background: rgba(255, 255, 255, 0.1) !important; 
+        color: var(--text-color) !important; 
+        border: none !important; 
+        font-family: var(--font-main) !important; 
+        font-size: 12px !important; 
+    }
+    .dg .c input[type="checkbox"] { 
+        accent-color: var(--accent-color) !important; 
+    }
+    .dg .cr.function .property-name { 
+        width: 100% !important; 
+        color: var(--accent-color) !important; 
+        opacity: 1 !important; 
+    }
+    .dg .cr.function:hover { 
+        background: rgba(255, 255, 255, 0.1) !important; 
+    }
+    .dg .close-button { 
+        position: relative !important;
+        background: rgba(255, 255, 255, 0.1) !important; 
+        border-top: none !important; 
+        border-bottom-left-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+        color: var(--text-color) !important; 
+        font-family: var(--font-main) !important; 
+        font-size: 12px !important; 
+        text-align: center !important; 
+        padding: 8px !important; 
+        margin-top: 5px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        min-height: 22px !important;
+    }
+    .dg .close-button:hover { 
+        background: rgba(255, 255, 255, 0.2) !important; 
+    }
 
         #heightDistributionModal {
             position: fixed;
@@ -282,6 +282,7 @@
     <script src="https://cdn.jsdelivr.net/npm/geotiff@2.0.7/dist-browser/geotiff.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
     <script src="OrbitControls.js"></script>
+    <script src="tile_meta_data.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.7.5/proj4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -292,65 +293,15 @@
         let tiles = new Map();
         let maxHeight = 50;
         const tileSize = 1000;
-        const visibleDistance = 5000;
+        const visibleDistance = 3000;
+        const loadingTiles = new Set(); // Track tiles being loaded
+        let lastUpdateTime = 0; // For debouncing
+        const updateInterval = 500; // Update every 500ms
 
         let tileRectangles = new Map();
         let selectedTileRectangle = null;
         let selectedTileKey = null;
         let heightDistributionChart;
-
-        const tileMetadata = [
-            { file: 'NEON_D17_SOAP_DP3_293000_4096000_CHM.tif', easting: 293000, northing: 4096000 },
-            { file: 'NEON_D17_SOAP_DP3_293000_4097000_CHM.tif', easting: 293000, northing: 4097000 },
-            { file: 'NEON_D17_SOAP_DP3_293000_4100000_CHM.tif', easting: 293000, northing: 4100000 },
-            { file: 'NEON_D17_SOAP_DP3_293000_4105000_CHM.tif', easting: 293000, northing: 4105000 },
-            { file: 'NEON_D17_SOAP_DP3_293000_4106000_CHM.tif', easting: 293000, northing: 4106000 },
-            { file: 'NEON_D17_SOAP_DP3_293000_4107000_CHM.tif', easting: 293000, northing: 4107000 },
-            { file: 'NEON_D17_SOAP_DP3_294000_4098000_CHM.tif', easting: 294000, northing: 4098000 },
-            { file: 'NEON_D17_SOAP_DP3_294000_4099000_CHM.tif', easting: 294000, northing: 4099000 },
-            { file: 'NEON_D17_SOAP_DP3_294000_4102000_CHM.tif', easting: 294000, northing: 4102000 },
-            { file: 'NEON_D17_SOAP_DP3_294000_4103000_CHM.tif', easting: 294000, northing: 4103000 },
-            { file: 'NEON_D17_SOAP_DP3_295000_4095000_CHM.tif', easting: 295000, northing: 4095000 },
-            { file: 'NEON_D17_SOAP_DP3_296000_4097000_CHM.tif', easting: 296000, northing: 4097000 },
-            { file: 'NEON_D17_SOAP_DP3_296000_4098000_CHM.tif', easting: 296000, northing: 4098000 },
-            { file: 'NEON_D17_SOAP_DP3_296000_4100000_CHM.tif', easting: 296000, northing: 4100000 },
-            { file: 'NEON_D17_SOAP_DP3_296000_4101000_CHM.tif', easting: 296000, northing: 4101000 },
-            { file: 'NEON_D17_SOAP_DP3_296000_4106000_CHM.tif', easting: 296000, northing: 4106000 },
-            { file: 'NEON_D17_SOAP_DP3_296000_4107000_CHM.tif', easting: 296000, northing: 4107000 },
-            { file: 'NEON_D17_SOAP_DP3_297000_4099000_CHM.tif', easting: 297000, northing: 4099000 },
-            { file: 'NEON_D17_SOAP_DP3_297000_4102000_CHM.tif', easting: 297000, northing: 4102000 },
-            { file: 'NEON_D17_SOAP_DP3_297000_4103000_CHM.tif', easting: 297000, northing: 4103000 },
-            { file: 'NEON_D17_SOAP_DP3_297000_4104000_CHM.tif', easting: 297000, northing: 4104000 },
-            { file: 'NEON_D17_SOAP_DP3_297000_4109000_CHM.tif', easting: 297000, northing: 4109000 },
-            { file: 'NEON_D17_SOAP_DP3_298000_4096000_CHM.tif', easting: 298000, northing: 4096000 },
-            { file: 'NEON_D17_SOAP_DP3_298000_4106000_CHM.tif', easting: 298000, northing: 4106000 },
-            { file: 'NEON_D17_SOAP_DP3_299000_4098000_CHM.tif', easting: 299000, northing: 4098000 },
-            { file: 'NEON_D17_SOAP_DP3_299000_4101000_CHM.tif', easting: 299000, northing: 4101000 },
-            { file: 'NEON_D17_SOAP_DP3_299000_4102000_CHM.tif', easting: 299000, northing: 4102000 },
-            { file: 'NEON_D17_SOAP_DP3_299000_4107000_CHM.tif', easting: 299000, northing: 4107000 },
-            { file: 'NEON_D17_SOAP_DP3_299000_4108000_CHM.tif', easting: 299000, northing: 4108000 },
-            { file: 'NEON_D17_SOAP_DP3_300000_4095000_CHM.tif', easting: 300000, northing: 4095000 },
-            { file: 'NEON_D17_SOAP_DP3_300000_4097000_CHM.tif', easting: 300000, northing: 4097000 },
-            { file: 'NEON_D17_SOAP_DP3_300000_4100000_CHM.tif', easting: 300000, northing: 4100000 },
-            { file: 'NEON_D17_SOAP_DP3_300000_4105000_CHM.tif', easting: 300000, northing: 4105000 },
-            { file: 'NEON_D17_SOAP_DP3_301000_4097000_CHM.tif', easting: 301000, northing: 4097000 },
-            { file: 'NEON_D17_SOAP_DP3_301000_4098000_CHM.tif', easting: 301000, northing: 4098000 },
-            { file: 'NEON_D17_SOAP_DP3_301000_4099000_CHM.tif', easting: 301000, northing: 4099000 },
-            { file: 'NEON_D17_SOAP_DP3_301000_4101000_CHM.tif', easting: 301000, northing: 4101000 },
-            { file: 'NEON_D17_SOAP_DP3_302000_4095000_CHM.tif', easting: 302000, northing: 4095000 },
-            { file: 'NEON_D17_SOAP_DP3_302000_4103000_CHM.tif', easting: 302000, northing: 4103000 },
-            { file: 'NEON_D17_SOAP_DP3_302000_4104000_CHM.tif', easting: 302000, northing: 4104000 },
-            { file: 'NEON_D17_SOAP_DP3_303000_4100000_CHM.tif', easting: 303000, northing: 4100000 },
-            { file: 'NEON_D17_SOAP_DP3_303000_4106000_CHM.tif', easting: 303000, northing: 4106000 },
-            { file: 'NEON_D17_SOAP_DP3_304000_4098000_CHM.tif', easting: 304000, northing: 4098000 },
-            { file: 'NEON_D17_SOAP_DP3_304000_4099000_CHM.tif', easting: 304000, northing: 4099000 },
-            { file: 'NEON_D17_SOAP_DP3_304000_4102000_CHM.tif', easting: 304000, northing: 4102000 },
-            { file: 'NEON_D17_SOAP_DP3_304000_4103000_CHM.tif', easting: 304000, northing: 4103000 },
-            { file: 'NEON_D17_SOAP_DP3_305000_4104000_CHM.tif', easting: 305000, northing: 4104000 },
-            { file: 'NEON_D17_SOAP_DP3_305000_4105000_CHM.tif', easting: 305000, northing: 4105000 },
-            { file: 'NEON_D17_SOAP_DP3_306000_4098000_CHM.tif', easting: 306000, northing: 4098000 },
-            { file: 'NEON_D17_SOAP_DP3_292000_4103000_CHM.tif', easting: 292000, northing: 4103000 },
-        ];
 
         const colorStops = [
             { height: 0.0, color: new THREE.Color(0x003300) },
@@ -372,6 +323,7 @@
                     const tileMesh = terrain.getObjectByName(key);
                     if (tileMesh) {
                         terrain.remove(tileMesh);
+                        disposeMesh(tileMesh);
                         createTileMesh(tileData, key);
                     }
                 });
@@ -396,7 +348,7 @@
             
             const firstTile = tileMetadata[0];
             try {
-                await loadTile(firstTile);
+                await loadTile(firstTile, true); // Show loading for initial tile
                 createTileMesh(tiles.get(`${firstTile.easting}_${firstTile.northing}`), `${firstTile.easting}_${firstTile.northing}`);
                 createColorLegend();
                 document.getElementById('maxHeightLabel').textContent = `${maxHeight.toFixed(1)}m`;
@@ -545,15 +497,18 @@
                     
                     highlightTile(key);
                     
-                    if (!tiles.has(key)) {
+                    if (!tiles.has(key) && !loadingTiles.has(key)) {
                         showLoading(`Loading tile ${tile.file.split('/').pop()}...`);
+                        loadingTiles.add(key);
                         try {
-                            await loadTile(tile);
+                            await loadTile(tile, true); // Show loading for selected tile
+                            createTileMesh(tiles.get(key), key);
                             hideLoading();
                         } catch (error) {
                             hideLoading();
                             showError(`Failed to load tile ${tile.file.split('/').pop()}: ${error.message}`);
-                            return;
+                        } finally {
+                            loadingTiles.delete(key);
                         }
                     }
 
@@ -569,7 +524,7 @@
                     );
                     controls.update();
 
-                    if (!terrain.getObjectByName(key)) {
+                    if (!terrain.getObjectByName(key) && tiles.has(key)) {
                         createTileMesh(tiles.get(key), key);
                     }
 
@@ -589,8 +544,9 @@
             map.fitBounds(L.latLngBounds(allBounds.flat()));
         }
 
-        async function loadTile(tile, retries = 3) {
-            for (let attempt = 1; attempt <= retries; attempt++) {
+        async function loadTile(tile, showLoadingMessage = false) {
+            const key = `${tile.easting}_${tile.northing}`;
+            for (let attempt = 1; attempt <= 3; attempt++) {
                 try {
                     const response = await fetch(tile.file);
                     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
@@ -618,7 +574,7 @@
                         console.warn(`Tile ${tile.file} contains no valid height data.`);
                     }
                     
-                    tiles.set(`${tile.easting}_${tile.northing}`, {
+                    tiles.set(key, {
                         heightData,
                         width,
                         height,
@@ -632,8 +588,8 @@
                     document.getElementById('maxHeightLabel').textContent = `${maxHeight.toFixed(1)}m`;
                     return;
                 } catch (error) {
-                    if (attempt === retries) {
-                        throw new Error(`Failed to load tile after ${retries} attempts: ${error.message}`);
+                    if (attempt === 3) {
+                        throw new Error(`Failed to load tile ${key} after 3 attempts: ${error.message}`);
                     }
                     console.warn(`Attempt ${attempt} failed for ${tile.file}. Retrying...`);
                     await new Promise(resolve => setTimeout(resolve, 1000));
@@ -642,16 +598,34 @@
         }
 
         async function loadRemainingTiles() {
-            for (let i = 1; i < tileMetadata.length; i++) {
-                const tile = tileMetadata[i];
+            const firstTile = tileMetadata[0];
+            const centerPos = new THREE.Vector3(
+                firstTile.easting - tileMetadata[0].easting,
+                0,
+                firstTile.northing - tileMetadata[0].northing
+            );
+
+            for (const tile of tileMetadata) {
                 const key = `${tile.easting}_${tile.northing}`;
-                if (!tiles.has(key)) {
+                if (key === `${firstTile.easting}_${firstTile.northing}`) continue;
+
+                const tilePos = new THREE.Vector3(
+                    tile.easting - tileMetadata[0].easting,
+                    0,
+                    tile.northing - tileMetadata[0].northing
+                );
+                const distance = centerPos.distanceTo(tilePos);
+
+                if (distance < visibleDistance && !tiles.has(key) && !loadingTiles.has(key)) {
+                    loadingTiles.add(key);
                     try {
-                        await loadTile(tile);
-                        updateVisibleTiles();
+                        await loadTile(tile, false); // Silent load for surrounding tiles
+                        createTileMesh(tiles.get(key), key);
                     } catch (error) {
                         console.error(`Error loading ${tile.file}:`, error);
                         showError(`Failed to load tile ${tile.file.split('/').pop()}: ${error.message}`);
+                    } finally {
+                        loadingTiles.delete(key);
                     }
                 }
             }
@@ -684,6 +658,19 @@
                 file: 'dummy.tif'
             });
             maxHeight = 45;
+        }
+
+        function disposeMesh(mesh) {
+            if (mesh.geometry) {
+                mesh.geometry.dispose();
+            }
+            if (mesh.material) {
+                if (Array.isArray(mesh.material)) {
+                    mesh.material.forEach(mat => mat.dispose());
+                } else {
+                    mesh.material.dispose();
+                }
+            }
         }
 
         function createTileMesh(tileData, key) {
@@ -781,8 +768,11 @@
             gradientBar.style.borderRadius = '4px';
         }
 
-        function updateVisibleTiles() {
+        function unloadFarTiles() {
             const cameraPos = camera.position;
+            const unloadDistance = visibleDistance * 2;
+            const tilesToRemove = [];
+
             tiles.forEach((tileData, key) => {
                 const tilePos = new THREE.Vector3(
                     tileData.easting - tileMetadata[0].easting,
@@ -790,13 +780,84 @@
                     tileData.northing - tileMetadata[0].northing
                 );
                 const distance = cameraPos.distanceTo(tilePos);
-                
-                if (distance < visibleDistance && !terrain.getObjectByName(key)) {
-                    createTileMesh(tileData, key);
-                } else if (distance >= visibleDistance && terrain.getObjectByName(key)) {
-                    terrain.remove(terrain.getObjectByName(key));
+
+                if (distance >= unloadDistance && key !== selectedTileKey) {
+                    tilesToRemove.push(key);
                 }
             });
+
+            tilesToRemove.forEach(key => {
+                const tileMesh = terrain.getObjectByName(key);
+                if (tileMesh) {
+                    terrain.remove(tileMesh);
+                    disposeMesh(tileMesh);
+                }
+                tiles.delete(key);
+            });
+        }
+
+        async function updateVisibleTiles() {
+            const now = Date.now();
+            if (now - lastUpdateTime < updateInterval) return;
+            lastUpdateTime = now;
+
+            const cameraPos = camera.position;
+            let loadingCount = 0;
+
+            // Identify tiles to load (limit concurrent loads)
+            for (const tile of tileMetadata) {
+                if (loadingCount >= 3) break;
+                const key = `${tile.easting}_${tile.northing}`;
+                if (tiles.has(key) || loadingTiles.has(key)) continue;
+
+                const tilePos = new THREE.Vector3(
+                    tile.easting - tileMetadata[0].easting,
+                    0,
+                    tile.northing - tileMetadata[0].northing
+                );
+                const distance = cameraPos.distanceTo(tilePos);
+
+                if (distance < visibleDistance) {
+                    loadingTiles.add(key);
+                    loadingCount++;
+                    const isSelectedTile = key === selectedTileKey;
+                    if (isSelectedTile) {
+                        showLoading(`Loading tile ${tile.file.split('/').pop()}...`);
+                    }
+                    try {
+                        await loadTile(tile, isSelectedTile);
+                        createTileMesh(tiles.get(key), key);
+                    } catch (error) {
+                        showError(`Failed to load tile ${tile.file.split('/').pop()}: ${error.message}`);
+                    } finally {
+                        loadingTiles.delete(key);
+                        if (isSelectedTile) {
+                            hideLoading();
+                        }
+                    }
+                }
+            }
+
+            // Update visibility of loaded tiles
+            tiles.forEach((tileData, key) => {
+                const tilePos = new THREE.Vector3(
+                    tileData.easting - tileMetadata[0].easting,
+                    0,
+                    tileData.northing - tileMetadata[0].northing
+                );
+                const distance = cameraPos.distanceTo(tilePos);
+
+                if (distance < visibleDistance && !terrain.getObjectByName(key)) {
+                    createTileMesh(tileData, key);
+                } else if (distance >= visibleDistance && terrain.getObjectByName(key) && key !== selectedTileKey) {
+                    const tileMesh = terrain.getObjectByName(key);
+                    terrain.remove(tileMesh);
+                    disposeMesh(tileMesh);
+                }
+            });
+
+            // Unload far-away tiles
+            unloadFarTiles();
         }
 
         function setupGUI() {
@@ -979,7 +1040,6 @@
             const fileName = tileData.file.split('/').pop();
 
             try {
-                // Open the tile URL in a new tab
                 const newTab = window.open(tileData.file, '_blank');
                 if (!newTab) {
                     throw new Error('Failed to open new tab. Please allow popups for this site.');
