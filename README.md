@@ -1,6 +1,6 @@
 # Canopy Height Model (CHM) Tiled Visualization
 
-This repository provides an interactive 3D visualization of forest canopy height models using pure JavaScript. The visualization enables users to explore forest structure across multiple CHM tiles, with an intuitive interface for analyzing canopy height data.
+This repository provides an interactive 3D visualization of forest canopy height models using pure JavaScript. The visualization enables users to explore forest structure across multiple CHM tiles with an intuitive interface for analyzing canopy height data.
 
 ## Features
 
@@ -40,19 +40,19 @@ No build tools required! This project uses CDN-loaded libraries for simplicity.
 
 ### Installation
 
-1. Clone the repository
-  ```bash
+1. Clone the repository:
+   ```bash
    git clone https://github.com/klinucsd/of4d
    ```
-2. Copy the folder of4d to the folder of your web server
-3. Open your browser at https://your_domain/of4d
+2. Copy the `of4d` folder to your web server directory
+3. Open your browser at `https://your_domain/of4d`
 
 ### Using Your Own CHM Data
 
-You can replace these with your own data:
+You can replace the default data with your own:
 
-1. Replace the GeoTIFF files under the folder `data` by your CHM tiles.
-2. Update `js/tile_meta_data.js` to match your file names and UTM coordinates.
+1. Replace the GeoTIFF files in the `data` folder with your CHM tiles
+2. Update `js/tile_meta_data.js` to match your file names and UTM coordinates
 3. Adjust the UTM zone in the `utmToLatLng` function if your data is in a different zone
 
 ## Data Format
@@ -81,6 +81,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- This tool is developed under OpenForest4D which is funded by NSF awards 2409885, 2409886 & 2409887
+- This tool is developed under OpenForest4D, funded by NSF awards 2409885, 2409886 & 2409887
 - [NEON (National Ecological Observatory Network)](https://www.neonscience.org/) for providing open CHM data
 - Three.js, GeoTIFF.js, and other libraries that made this visualization possible
