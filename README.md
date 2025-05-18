@@ -17,7 +17,7 @@ This repository provides an interactive 3D visualization of forest canopy height
 
 ## Live Demo
 
-[View the live demo](https://of4d-beta.sdsc.edu/chm/visualization.html)
+[View the live demo](https://klinucsd.github.io/of4d/)
 
 ## How It Works
 
